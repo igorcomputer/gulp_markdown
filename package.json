@@ -1,0 +1,30 @@
+{
+  "name": "gulp-markdown-project",
+  "version": "1.0.0",
+  "description": "compiler for markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igorcomputer/nodejs"
+  },
+  "keywords": [
+    "gulp",
+    "gulp-markdown"
+  ],
+  "author": "igorcomputer",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-markdown": "^1.2.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2"
+  },
+  "dependencies": {
+    "fs-extra": "^3.0.1",
+    "prepend-file": "^1.3.1"
+  }
+}
